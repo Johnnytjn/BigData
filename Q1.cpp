@@ -1,17 +1,18 @@
 #include <iostream>
 #include <cstdio>
 #include <cstring>
-#include <cstdlib>
-#include <ctime>
 #include <cmath>
 #include <omp.h>
 #include <algorithm>
+#include <cstdlib>
+#include <ctime>
+
 
 using namespace std;
 
 const double INF=1e20;
-const int MAXD = 1000;//最高维度数
-const int MAXN = 1000;//最大样本点数
+const int MAXD = n;//最高维度数
+const int MAXN = m;//最大样本点数
 const int MAXC = 50;//类的最大个数
 const int NUM_THREADS = 4;//线程数
 
